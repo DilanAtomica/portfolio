@@ -2,11 +2,11 @@
     position: fixed;
     width: 100%;
     background-color: #1F1F1F;
-
     padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 
 .navBar > ul {
@@ -15,7 +15,7 @@
 }
 
 .navBar > ul > li:first-child {
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(26,207,27);
 }
 
 .navBar > ul > li {

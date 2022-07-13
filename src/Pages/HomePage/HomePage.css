@@ -1,0 +1,48 @@
+.homePage {
+
+}
+
+.homePanel {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContainer {
+    position: absolute;
+    color: rgb(26,207,27);
+    z-index: 5;
+    background-color: #0C0C0C;
+}
+
+.homeContainer-info {
+
+}
+
+.homeContainer-info > h1 {
+    color: white;
+    font-size: 3.5rem;
+}
+
+.homeContainer-info > h1 > span {
+    color: rgb(26,207,27);
+}
+
+.homeContainer-info > button {
+    padding: 0.75rem 2.5rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(26,207,27, 1);
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.homeContainer-info > button:hover {
+    background-color: rgba(26,207,27, 0.7);
+}
