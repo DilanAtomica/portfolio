@@ -1,0 +1,39 @@
+.navBar{
+    position: fixed;
+    width: 100%;
+    background-color: #1F1F1F;
+
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar > ul {
+    display: flex;
+    align-items: center;
+}
+
+.navBar > ul > li:first-child {
+    border-bottom: 2px solid red;
+}
+
+.navBar > ul > li {
+    color: white;
+    font-weight: 700;
+    margin: 0 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.navBar > ul > li:last-child {
+}
+
+.circle {
+    width: 2rem;
+    height: 2rem;
+    outline: solid purple;
+    position: relative;
+    left: 30%;
+}
