@@ -1,91 +1,29 @@
 .homePage {
-
-}
-
-.homePanel {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.homeContainer {
-    position: absolute;
-    z-index: 5;
-    background-color: #0C0C0C;
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-    flex-wrap: wrap;
-
-}
-
-.homeContainer-info {
-    width: 17rem;
-}
-
-.homeContainer-info > h1 {
-    color: white;
-    font-size: 3.5rem;
-}
-
-.homeContainer-info > h1 > span {
-    color: rgb(26,207,27);
-}
-
-.homeContainer-info > button {
-    padding: 1rem 2.75rem;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    font-weight: 700;
-    color: white;
-    background-color: rgba(26,207,27, 1);
-    margin-top: 2rem;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.homeContainer-info > button:hover {
-    background-color: rgba(26,207,27, 0.7);
-}
-
-.homeContainer-profile {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    background-color: #0C0C0C;
+}
+
+.aboutContainer {
+    background-color: #0C0C0C;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
 }
 
-.homeContainer-profile > img {
-    object-fit: cover;
-    border-radius: 999px;
-    width: 30rem;
-}
-
-.profileLinksContainer {
-    margin-top: 1rem;
-    color: white;
-}
-
-.profileLinksContainer {
-    margin-top: 1rem;
-    color: white;
-}
-
-#githubIcon {
-    margin-right: 1rem;
-}
-
-#githubIcon, #linkedInIcon {
-    cursor: pointer;
-}
-
-#githubIcon:hover {
+.aboutContainer > h1 {
     color: rgb(26,207,27);
+    border-bottom: 4px solid rgb(26,207,27);
 }
 
-#linkedInIcon:hover {
-    color: rgb(26,207,27);
+.aboutContainer > p {
+    color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+
 }

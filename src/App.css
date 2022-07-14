@@ -1,11 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
-  font-family: Roboto, serif;
+  font-family: Poppins, serif;
 }
 
 ul {
   list-style-type: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0C0C0C;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(26,207,27, 1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(26,207,27, 0.7);
 }
