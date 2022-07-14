@@ -14,10 +14,6 @@
     align-items: center;
 }
 
-.navBar > ul > li:first-child {
-    border-bottom: 2px solid rgb(26,207,27);
-}
-
 .navBar > ul > li {
     color: white;
     font-weight: 600;
@@ -25,15 +21,13 @@
     padding-bottom: 0.5rem;
     font-size: 1rem;
     cursor: pointer;
+    border-bottom: 2px solid #1F1F1F;
 }
 
-.navBar > ul > li:last-child {
+.navBar > ul > li:first-child {
+    border-bottom: 2px solid rgb(26,207,27);
 }
 
-.circle {
-    width: 2rem;
-    height: 2rem;
-    outline: solid purple;
-    position: relative;
-    left: 30%;
+.navBar > ul > li:hover {
+    border-bottom: 2px solid rgb(26,207,27);
 }
