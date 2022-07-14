@@ -12,13 +12,17 @@
 
 .homeContainer {
     position: absolute;
-    color: rgb(26,207,27);
     z-index: 5;
     background-color: #0C0C0C;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+
 }
 
 .homeContainer-info {
-
+    width: 17rem;
 }
 
 .homeContainer-info > h1 {
@@ -31,7 +35,7 @@
 }
 
 .homeContainer-info > button {
-    padding: 0.75rem 2.5rem;
+    padding: 1rem 2.75rem;
     border-radius: 10px;
     border: none;
     font-size: 16px;
@@ -45,4 +49,43 @@
 
 .homeContainer-info > button:hover {
     background-color: rgba(26,207,27, 0.7);
+}
+
+.homeContainer-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeContainer-profile > img {
+    object-fit: cover;
+    border-radius: 999px;
+    width: 30rem;
+}
+
+.profileLinksContainer {
+    margin-top: 1rem;
+    color: white;
+}
+
+.profileLinksContainer {
+    margin-top: 1rem;
+    color: white;
+}
+
+#githubIcon {
+    margin-right: 1rem;
+}
+
+#githubIcon, #linkedInIcon {
+    cursor: pointer;
+}
+
+#githubIcon:hover {
+    color: rgb(26,207,27);
+}
+
+#linkedInIcon:hover {
+    color: rgb(26,207,27);
 }

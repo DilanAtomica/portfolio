@@ -1,10 +1,10 @@
 import React from 'react';
 import "./HomePage.css";
-
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-
 import TypeWriter from "typewriter-effect";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function HomePage(props) {
 
@@ -38,6 +38,13 @@ function HomePage(props) {
                         }}/>
                         </h1>
                         <button type="button">Contact</button>
+                    </div>
+                    <div className="homeContainer-profile">
+                        <img alt="profile picture" src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                        <div className="profileLinksContainer">
+                            <GitHubIcon id="githubIcon" />
+                            <LinkedInIcon id="linkedInIcon" />
+                        </div>
                     </div>
                 </div>
                 <Particles
@@ -102,7 +109,7 @@ function HomePage(props) {
                                     enable: true,
                                     area: 800,
                                 },
-                                value: 80,
+                                value: 50,
                             },
                             opacity: {
                                 value: 0.5,
