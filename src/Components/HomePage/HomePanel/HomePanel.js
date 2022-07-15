@@ -34,7 +34,7 @@ function HomePanel(props) {
                     <button type="button">Contact</button>
                 </div>
                 <div className="homeContainer-profile">
-                    <img alt="profile picture" src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                    <img alt="Dilan" src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
                     <div className="profileLinksContainer">
                         <GitHubIcon id="githubIcon" />
                         <LinkedInIcon id="linkedInIcon" />
