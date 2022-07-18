@@ -13,6 +13,17 @@ function HomePage(props) {
             <AboutContainer />
             <SkillsContainer />
             <ProjectsContainer />
+
+            <div className="contactContainer">
+                <h1>Contact</h1>
+                <form className="contactContainer-form">
+                    <input id="nameInput" type="text" placeholder="Name" />
+                    <input id="emailInput" type="email" placeholder="Email" />
+                    <textarea id="textInput" cols="0" rows="10" placeholder="What do you want to say?" />
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
         </main>
     );
 }
