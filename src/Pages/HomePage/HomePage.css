@@ -67,7 +67,7 @@ textarea {
 }
 
 .contactContainer-form > button {
-    background-color: rgb(26,207,27);
+    background-color: rgb(26,207,27, 1);
     color: white;
     font-weight: 600;
     font-size: 1rem;
@@ -75,6 +75,12 @@ textarea {
     width: max-content;
     border-radius: 10px;
     margin-top: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.contactContainer-form > button:hover {
+    background-color: rgb(26,207,27, 0.7);
 }
 
 
