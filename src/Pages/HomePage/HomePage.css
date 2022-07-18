@@ -5,41 +5,4 @@
     background-color: #0C0C0C;
 }
 
-.projectsContainer {
-    background-color: #0C0C0C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    outline: solid red;
-    margin-top: 4rem;
-}
-
-.projectsContainer > h1 {
-    color: rgb(26,207,27);
-    border-bottom: 4px solid rgb(26,207,27);
-}
-
-.projectsContainer-panel {
-    margin-top: 2rem;
-}
-
-.projectsContainer-project {
-    outline: solid purple;
-    width: 22.5rem;
-}
-
-.projectsContainer-project > img {
-    object-fit: contain;
-    width: 100%;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-}
-
-.projectsContainer-projectBottom {
-
-}
 

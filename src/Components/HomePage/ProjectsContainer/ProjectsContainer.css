@@ -1,0 +1,86 @@
+
+.projectsContainer {
+    background-color: #0C0C0C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.projectsContainer > h1 {
+    color: rgb(26,207,27);
+    border-bottom: 4px solid rgb(26,207,27);
+}
+
+.projectsContainer-panel {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.projectsContainer-panel:first-child {
+}
+
+.projectsContainer-project {
+    width: 22.5rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsContainer-project > img {
+    object-fit: contain;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.projectsContainer-projectBottom {
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid rgb(26,207,27);
+    border-top: none;
+
+}
+
+.projectsContainer-projectBottom > h2 {
+
+}
+
+.projectsContainer-projectBottom > p {
+    font-size: 0.9rem;
+}
+
+.projectsContainer-projectButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.5rem;
+    border-top: 1px solid white;
+}
+
+.projectsContainer-projectButtons > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 999px;
+    padding: 0.5rem;
+}
+
+.projectsContainer-projectButtons > li:hover {
+    background-color: rgb(26,207,27);
+    color: black;
+}
+
+.projectsContainer-projectButtons > li > span {
+    margin-right: 0.25rem;
+}
