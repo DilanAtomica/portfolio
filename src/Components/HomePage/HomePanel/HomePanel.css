@@ -85,7 +85,7 @@
     color: rgb(26,207,27);
 }
 
-#dark .homeContainer-info > h1, #dark .profileLinksContainer {
+#light .homeContainer-info > h1, #light .profileLinksContainer {
     color: #0C0C0C;
 }
 

@@ -48,7 +48,7 @@ function HomePanel({darkMode}) {
                 options={{
                     background: {
                         color: {
-                            value: darkMode ? "white" : "#0C0C0C",
+                            value: !darkMode ? "white" : "#0C0C0C",
                         },
                     },
                     fullScreen: {
@@ -79,10 +79,10 @@ function HomePanel({darkMode}) {
                     },
                     particles: {
                         color: {
-                            value:  darkMode ? "#0C0C0C" : "#ffffff",
+                            value:  !darkMode ? "#0C0C0C" : "#ffffff",
                         },
                         links: {
-                            color: darkMode ? "#0C0C0C" : "#ffffff",
+                            color: !darkMode ? "#0C0C0C" : "#ffffff",
                             distance: 100,
                             enable: true,
                             opacity: 0.5,

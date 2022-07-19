@@ -33,15 +33,19 @@
     border-bottom: 2px solid rgb(26,207,27);
 }
 
-#dark .navBar {
+#light .navBar {
     background-color: white;
 }
 
-#dark .navBar > ul > li {
+#light .navBar > ul > li {
     color: #0C0C0C;
     border-bottom: 2px solid white;
 }
 
-#dark .navBar > ul > li:first-child {
+#light .navBar > ul > li:hover {
+    border-bottom: 2px solid rgb(26,207,27);
+}
+
+#light .navBar > ul > li:first-child {
     border-bottom: 2px solid rgb(26,207,27);
 }
