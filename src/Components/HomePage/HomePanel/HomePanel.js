@@ -7,7 +7,7 @@ import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
 
 
-function HomePanel(props) {
+function HomePanel({darkMode}) {
 
 
     const particlesInit = async (main) => {
@@ -48,7 +48,7 @@ function HomePanel(props) {
                 options={{
                     background: {
                         color: {
-                            value: "#0C0C0C",
+                            value: darkMode ? "white" : "#0C0C0C",
                         },
                     },
                     fullScreen: {
@@ -79,10 +79,10 @@ function HomePanel(props) {
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value:  darkMode ? "#0C0C0C" : "#ffffff",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: darkMode ? "#0C0C0C" : "#ffffff",
                             distance: 100,
                             enable: true,
                             opacity: 0.5,

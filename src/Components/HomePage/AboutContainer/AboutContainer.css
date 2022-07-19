@@ -1,5 +1,4 @@
 .aboutContainer {
-    background-color: #0C0C0C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +18,12 @@
     margin-top: 2rem;
     font-size: 1rem;
 
+}
+
+#dark .aboutContainer {
+    background-color: white;
+}
+
+#dark .aboutContainer > p {
+    color: #0C0C0C;
 }

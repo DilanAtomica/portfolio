@@ -12,9 +12,9 @@ function App() {
     }
 
   return (
-    <div className="App">
+    <div className="App" id={darkMode && "dark"}>
         <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
-        <HomePage />
+        <HomePage darkMode={darkMode} />
     </div>
   );
 }

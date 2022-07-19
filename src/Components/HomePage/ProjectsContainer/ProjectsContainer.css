@@ -1,5 +1,4 @@
 .projectsContainer {
-    background-color: #0C0C0C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,4 +81,12 @@
 
 .projectsContainer-projectButtons > li > span {
     margin-right: 0.25rem;
+}
+
+#dark .projectsContainer-projectBottom {
+    color: #0C0C0C;
+}
+
+#dark .projectsContainer-projectButtons > li:hover {
+    color: white;
 }

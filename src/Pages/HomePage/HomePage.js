@@ -7,11 +7,11 @@ import ProjectsContainer from "../../Components/HomePage/ProjectsContainer/Proje
 import ContactContainer from "../../Components/HomePage/ContactContainer/ContactContainer";
 
 
-function HomePage(props) {
+function HomePage({darkMode}) {
 
     return (
         <main className="homePage">
-            <HomePanel />
+            <HomePanel darkMode={darkMode} />
             <AboutContainer />
             <SkillsContainer />
             <ProjectsContainer />

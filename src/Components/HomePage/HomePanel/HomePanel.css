@@ -18,7 +18,6 @@
 
 .homeContainer-info {
     width: 17rem;
-    background-color: #0C0C0C;
 }
 
 .homeContainer-info > h1 {
@@ -85,3 +84,8 @@
 #linkedInIcon:hover {
     color: rgb(26,207,27);
 }
+
+#dark .homeContainer-info > h1, #dark .profileLinksContainer {
+    color: #0C0C0C;
+}
+

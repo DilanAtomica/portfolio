@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     z-index: 10;
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
 }
 
 .navBar > ul {
@@ -29,5 +30,18 @@
 }
 
 .navBar > ul > li:hover {
+    border-bottom: 2px solid rgb(26,207,27);
+}
+
+#dark .navBar {
+    background-color: white;
+}
+
+#dark .navBar > ul > li {
+    color: #0C0C0C;
+    border-bottom: 2px solid white;
+}
+
+#dark .navBar > ul > li:first-child {
     border-bottom: 2px solid rgb(26,207,27);
 }

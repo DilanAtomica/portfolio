@@ -1,5 +1,4 @@
 .contactContainer {
-    background-color: #0C0C0C;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,10 +70,16 @@ textarea {
     margin-top: 1rem;
     cursor: pointer;
     transition: 0.2s;
+    border: none;
 }
 
 .contactContainer-form > button:hover {
     background-color: rgb(26,207,27, 0.7);
+}
+
+#dark input[type=text], input[type=email], #dark textarea {
+    background-color: black;
+    color: white;
 }
 
 
