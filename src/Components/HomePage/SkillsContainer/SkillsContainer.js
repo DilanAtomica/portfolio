@@ -13,17 +13,17 @@ function SkillsContainer(props) {
 
             <div className="skillsContainer-panel">
                 <ul className="skillsContainer-box">
-                    <li><span><AiFillHtml5 class="logo" /></span> HTML5</li>
-                    <li><span><IoLogoCss3 class="logo" /></span>CSS3</li>
-                    <li><span><IoLogoJavascript class="logo" /></span>JAVASCRIPT</li>
-                    <li><span><IoLogoReact class="logo" /></span>REACT</li>
+                    <li><span><AiFillHtml5 className="logo" /></span> HTML5</li>
+                    <li><span><IoLogoCss3 className="logo" /></span>CSS3</li>
+                    <li><span><IoLogoJavascript className="logo" /></span>JAVASCRIPT</li>
+                    <li><span><IoLogoReact className="logo" /></span>REACT</li>
                 </ul>
 
                 <ul className="skillsContainer-box">
-                    <li><span><FaJava class="logo" /></span>JAVA</li>
-                    <li><span><FaDatabase class="logo" /></span>SQL</li>
-                    <li><span><IoLogoFirebase class="logo" /></span>FIREBASE</li>
-                    <li><span><FaGitAlt class="logo" /></span>GIT</li>
+                    <li><span><FaJava className="logo" /></span>JAVA</li>
+                    <li><span><FaDatabase className="logo" /></span>SQL</li>
+                    <li><span><IoLogoFirebase className="logo" /></span>FIREBASE</li>
+                    <li><span><FaGitAlt className="logo" /></span>GIT</li>
                 </ul>
             </div>
         </div>
