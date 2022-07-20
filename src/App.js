@@ -5,14 +5,14 @@ import {useState} from "react";
 
 function App() {
 
-    const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useState(true);
 
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);
     }
 
   return (
-    <div className="App" id={!darkMode && "light"}>
+    <div className="App" id={!darkMode ? "light" : "dark"}>
         <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
         <HomePage darkMode={darkMode} />
     </div>

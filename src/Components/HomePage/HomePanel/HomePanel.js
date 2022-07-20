@@ -83,7 +83,7 @@ function HomePanel({darkMode}) {
                         },
                         links: {
                             color: !darkMode ? "#0C0C0C" : "#ffffff",
-                            distance: 100,
+                            distance: 150,
                             enable: true,
                             opacity: 0.5,
                             width: 1,
