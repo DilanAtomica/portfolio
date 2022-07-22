@@ -58,3 +58,28 @@
 }
 
 
+@media (max-width: 1100px) {
+   .skillsContainer {
+       width: 100%;
+   }
+}
+
+@media (max-width: 768px) {
+    .skillsContainer-panel {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skillsContainer-box {
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .skillsContainer-box {
+        width: 80%;
+    }
+}
+
+
