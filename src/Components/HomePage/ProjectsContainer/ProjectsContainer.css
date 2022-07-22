@@ -21,9 +21,6 @@
     width: 100%;
 }
 
-.projectsContainer-panel:first-child {
-}
-
 .projectsContainer-project {
     width: 22.5rem;
     border-top-right-radius: 15px;
@@ -34,7 +31,7 @@
 
 .projectsContainer-project > img {
     object-fit: contain;
-    width: 100%;
+    height: 100%;
     border-radius: 15px;
 }
 
@@ -88,4 +85,22 @@
 
 #light .projectsContainer-projectButtons > li:hover {
     color: white;
+}
+
+@media (max-width: 1600px) {
+    .projectsContainer {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projectsContainer-panel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #secondProject {
+        margin-top: 3rem;
+    }
+
 }

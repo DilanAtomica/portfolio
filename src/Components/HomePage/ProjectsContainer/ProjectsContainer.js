@@ -25,12 +25,12 @@ function ProjectsContainer(props) {
                     </div>
                 </div>
 
-                <div className="projectsContainer-project">
+                <div className="projectsContainer-project" id="secondProject">
                     <img src={netflixClone} />
 
                     <div className="projectsContainer-projectBottom">
                         <h2>Netflix Clone</h2>
-                        <p>A clone of Netflix's homepage. An app where you can browse movies/shows from different genres. Made with React and TMDB's API for data on all the movies.  </p>
+                        <p>A clone of Netflix's homepage. An app where you can browse movies/shows from different genres. Made with React and TMDB's API for data on all the movies.</p>
 
                         <ul className="projectsContainer-projectButtons">
                             <li><span><WebIcon /></span>Live Site</li>
