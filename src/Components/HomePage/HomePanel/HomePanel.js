@@ -34,7 +34,7 @@ function HomePanel({darkMode}) {
                     <button type="button">Contact</button>
                 </div>
                 <div className="homeContainer-profile">
-                    <img alt="Dilan" src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                    <div className="homeContainer-profileImage"></div>
                     <div className="profileLinksContainer">
                         <GitHubIcon id="githubIcon" />
                         <LinkedInIcon id="linkedInIcon" />
@@ -58,7 +58,7 @@ function HomePanel({darkMode}) {
                     interactivity: {
                         events: {
                             onClick: {
-                                enable: true,
+                                enable: false,
                                 mode: "push",
                             },
                             onHover: {

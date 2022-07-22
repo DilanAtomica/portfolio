@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
@@ -15,7 +15,7 @@
 .aboutContainer-content {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 2rem;
     align-items: center;
 }
@@ -29,7 +29,7 @@
 
 .aboutContainer-textBox {
     width: 30rem;
-    margin-left: 7.5rem;
+    padding-left: 10%;
 }
 
 .aboutContainer-textBox > p {
@@ -44,4 +44,10 @@
 
 #light .aboutContainer-textBox > p {
     color: #0C0C0C;
+}
+
+@media (max-width: 768px) {
+    .aboutContainer-content {
+        flex-direction: column;
+    }
 }
