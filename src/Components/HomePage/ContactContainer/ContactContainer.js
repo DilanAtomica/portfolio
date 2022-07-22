@@ -16,7 +16,7 @@ function ContactContainer(props) {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        if(isVerified) {
+
             emailjs.sendForm('service_mba6hne', 'template_t2nsjxb', form.current, 'Hf_SVKOc5LKH9lKP8')
                 .then((result) => {
                     console.log(result.text);
@@ -28,7 +28,6 @@ function ContactContainer(props) {
             setInputText("");
             setInputName("");
         }
-    };
 
     const handleOnChange = (value) => {
         setIsVerified(true);
@@ -42,7 +41,7 @@ function ContactContainer(props) {
                 <input value={inputEmail} onChange={(e) => setInputEmail(e.target.value)} id="emailInput" type="email" name="user_email" placeholder="Email" />
                 <textarea value={inputText} onChange={(e) => setInputText(e.target.value)} id="textInput" cols="0" rows="10" name="message" placeholder="What do you want to say?" />
                 <ReCAPTCHA id="reCaptcha" sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" onChange={handleOnChange}/>
-                <button type="submit">Send</button>
+                <button disabled={!isVerified} type="submit">Send</button>
             </form>
         </div>
     );
