@@ -50,4 +50,10 @@
     .aboutContainer-content {
         flex-direction: column;
     }
+
+    .aboutContainer-textBox {
+        width: 90%;
+        padding-left: 0;
+        text-align: center;
+    }
 }
