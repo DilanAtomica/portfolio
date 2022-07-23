@@ -81,6 +81,12 @@ textarea {
     background-color: rgb(26,207,27, 0.7);
 }
 
+@media (max-width: 400px) {
+    #nameInput, #emailInput, #textInput {
+        width: 80%;
+    }
+}
+
 
 
 
