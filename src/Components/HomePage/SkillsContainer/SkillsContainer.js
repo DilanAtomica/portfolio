@@ -7,7 +7,7 @@ import {FaDatabase, FaGitAlt, FaJava} from "react-icons/fa";
 
 function SkillsContainer(props) {
     return (
-        <div className="skillsContainer">
+        <div className="skillsContainer" id="skills">
 
             <h1>Skills</h1>
 

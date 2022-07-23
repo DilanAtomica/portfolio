@@ -29,7 +29,7 @@
     color: rgb(26,207,27);
 }
 
-.homeContainer-info > button {
+.homeContainer-info  button {
     padding: 1rem 2.75rem;
     border-radius: 10px;
     border: none;

@@ -7,7 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 function ProjectsContainer(props) {
     return (
-        <div className="projectsContainer">
+        <div className="projectsContainer" id="projects">
             <h1>Projects</h1>
 
             <div className="projectsContainer-panel">

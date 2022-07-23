@@ -5,6 +5,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
+import {Link} from "react-scroll";
 
 
 function HomePanel({darkMode}) {
@@ -19,7 +20,7 @@ function HomePanel({darkMode}) {
     };
 
     return (
-        <div className="homePanel">
+        <div className="homePanel" id="home">
             <div className="homeContainer">
                 <div className="homeContainer-info">
                     <h1>
@@ -31,7 +32,7 @@ function HomePanel({darkMode}) {
                                 .typeString("#Music").pauseFor(2000).deleteAll().start()
                         }}/>
                     </h1>
-                    <button type="button">Contact</button>
+                    <Link to="contact" spy={true} offset={-75} duration={500} smooth={true}><button type="button">Contact</button></Link>
                 </div>
                 <div className="homeContainer-profile">
                     <div className="homeContainer-profileImage"></div>

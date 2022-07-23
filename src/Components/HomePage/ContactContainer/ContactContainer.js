@@ -34,7 +34,7 @@ function ContactContainer(props) {
     }
 
     return (
-        <div className="contactContainer">
+        <div className="contactContainer" id="contact">
             <h1>Contact</h1>
             <form onSubmit={sendEmail} ref={form} className="contactContainer-form">
                 <input value={inputName} onChange={(e) => setInputName(e.target.value)} id="nameInput" type="text" name="user_name" placeholder="Name" />

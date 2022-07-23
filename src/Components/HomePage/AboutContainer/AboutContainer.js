@@ -3,7 +3,7 @@ import "./AboutContainer.css";
 
 function AboutContainer(props) {
     return (
-        <div className="aboutContainer">
+        <div className="aboutContainer" id="about">
             <h1>About</h1>
             <div className="aboutContainer-content">
                 <div className="aboutContainer-imageBox">
